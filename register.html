@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Inscription	</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.png"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/linearicons-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/perfect-scrollbar/perfect-scrollbar.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="script.js"></script>
+
+<!--===============================================================================================-->
+</head>
+<body class="animsition" >
+	<!-- Header -->
+
+
+<!-- Header -->
+<header class="header-v2">
+	<!-- Header desktop -->
+	<div class="container-menu-desktop trans-03">
+		<div class="wrap-menu-desktop">
+			<nav class="limiter-menu-desktop p-l-45">
+			
+				<!-- Logo desktop -->		
+				<a href="#" class="logo">
+					<img src="images/icons/logo.png" alt="IMG-LOGO" style="margin-left: 2cm; height: 200px;width: 250px;" >
+				</a>
+
+				<!-- Menu desktop -->
+				<div class="menu-desktop">
+					<ul class="main-menu" id="linksId">
+					
+					</ul>
+				</div>	
+
+				<!-- Icon header -->
+				<div class="wrap-icon-header flex-w flex-r-m h-full">
+					<div class="flex-c-m h-full p-r-24">
+						<div class="icon-header-item cl2 hov-cl1 trans-04 p-lr-11 js-show-modal-search">
+							<i class="zmdi zmdi-search"></i>
+						</div>
+					</div>
+						
+				
+				
+				</div>
+			</nav>
+		</div>	
+	</div>
+
+	<!-- Header Mobile -->
+	<div class="wrap-header-mobile">
+		<!-- Logo moblie -->		
+		<div class="logo-mobile">
+			<a href="index.html"><img src="images/icons/logo-01.png" alt="IMG-LOGO"></a>
+		</div>
+
+		<!-- Icon header -->
+		<div class="wrap-icon-header flex-w flex-r-m h-full m-r-15">
+			<div class="flex-c-m h-full p-r-10">
+				<div class="icon-header-item cl2 hov-cl1 trans-04 p-lr-11 js-show-modal-search">
+					<i class="zmdi zmdi-search"></i>
+				</div>
+			</div>
+			<a href="shoping-cart.html">
+	
+<i class="zmdi zmdi-shopping-cart"></i>
+				</a>
+			</div>
+		</div>
+
+		<!-- Button show menu -->
+	
+	</div>
+
+
+	<!-- Menu Mobile -->
+	<div class="menu-mobile">
+		<ul class="main-menu-m">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="product.html">Gallerie</a></li>
+			<li><a href="shoping-cart.html">Features</a></li>
+			<li><a href="blog.html">Blog</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</div>
+
+	<!-- Modal Search -->
+	<div class="modal-search-header flex-c-m trans-04 js-hide-modal-search">
+		<div class="container-search-header">
+			<button class="flex-c-m btn-hide-modal-search trans-04 js-hide-modal-search">
+				<img src="images/icons/icon-close2.png" alt="CLOSE">
+			</button>
+
+			<div class="wrap-search-header flex-w p-l-15">
+				<button class="flex-c-m trans-04">
+					<i class="zmdi zmdi-search"></i>
+				</button>
+				<input class="plh3" type="text" name="search" placeholder="Search..." id="search_input" onkeypress="searchPr(event)" placeholder="Search Here" >
+			</div>
+		</div>
+	</div>
+</header>
+
+
+
+</div>
+
+	<!-- Sidebar -->
+
+	<!-- Cart -->
+	<div class="wrap-header-cart js-panel-cart">
+		<div class="s-full js-hide-cart"></div>
+
+		<div class="header-cart flex-col-l p-l-65 p-r-25">
+			<div class="header-cart-title flex-w flex-sb-m p-b-8">
+				<span class="mtext-103 cl2">
+					Your Cart
+				</span>
+
+				<div class="fs-35 lh-10 cl2 p-lr-5 pointer hov-cl1 trans-04 js-hide-cart">
+					<i class="zmdi zmdi-close"></i>
+				</div>
+			</div>
+			
+			<div class="header-cart-content flex-w js-pscroll">
+				<ul class="header-cart-wrapitem w-full">
+					<li class="header-cart-item flex-w flex-t m-b-12">
+						<div class="header-cart-item-img">
+							<img src="images/item-cart-01.jpg" alt="IMG">
+						</div>
+
+						<div class="header-cart-item-txt p-t-8">
+							<a href="#" class="header-cart-item-name m-b-18 hov-cl1 trans-04">
+								White Shirt Pleat
+							</a>
+
+							<span class="header-cart-item-info">
+								1 x $19.00
+							</span>
+						</div>
+					</li>
+
+					<li class="header-cart-item flex-w flex-t m-b-12">
+						<div class="header-cart-item-img">
+							<img src="images/item-cart-02.jpg" alt="IMG">
+						</div>
+
+						<div class="header-cart-item-txt p-t-8">
+							<a href="#" class="header-cart-item-name m-b-18 hov-cl1 trans-04">
+								Converse All Star
+							</a>
+
+							<span class="header-cart-item-info">
+								1 x $39.00
+							</span>
+						</div>
+					</li>
+
+					<li class="header-cart-item flex-w flex-t m-b-12">
+						<div class="header-cart-item-img">
+							<img src="images/item-cart-03.jpg" alt="IMG">
+						</div>
+
+						<div class="header-cart-item-txt p-t-8">
+							<a href="#" class="header-cart-item-name m-b-18 hov-cl1 trans-04">
+								Nixon Porter Leather
+							</a>
+
+							<span class="header-cart-item-info">
+								1 x $17.00
+							</span>
+						</div>
+					</li>
+				</ul>
+				
+				<div class="w-full">
+					<div class="header-cart-total w-full p-tb-40">
+						Total: $75.00
+					</div>
+
+					<div class="header-cart-buttons flex-w w-full">
+						<a href="shoping-cart.html" class="flex-c-m stext-101 cl0 size-107 bg3 bor2 hov-btn3 p-lr-15 trans-04 m-r-8 m-b-10">
+							View Cart
+						</a>
+
+						<a href="shoping-cart.html" class="flex-c-m stext-101 cl0 size-107 bg3 bor2 hov-btn3 p-lr-15 trans-04 m-b-10">
+							Check Out
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Title page -->
+	<section class="bg-img1  p-lr-15 p-tb-92" style="background-image: url('images/article.jpg');height: 8cm;">
+		<h2 class="ltext-105 cl0 " style="margin-left: 20cm;" >
+Inscription		</h2>
+	</section>	
+
+
+	<!-- Content page -->
+	<section class="bg0 p-t-104 p-b-116">
+		<div class="container" style="border-color: gold;">
+			<div class="flex-w flex-tr" style="border-color: gold;">
+				<div class="size-210 bor10 p-lr-70 p-t-55 p-b-70 p-lr-15-lg w-full-md" style="margin-left: 8cm;border-color: gold;">
+					<div>
+						<h4 class="mtext-105 cl2 txt-center p-b-30">
+                            Inscription					</h4>
+
+
+							<div class="mb-3">
+								<input  onkeyup="validateOnlyTextField(this)" 
+								id="firstName"  type="text" name="firstName" placeholder="Nom"
+								 class="form-control">
+								 <span id="firstNameError" style="margin-left: 1.6cm;"></span>
+
+							  </div>
+
+		
+
+
+
+							  <div class="mb-3">
+								<input   onkeyup="validateOnlyTextField(this)"  id="lastName" 
+								type="text" name="lastName" placeholder="prénom"
+								 class="form-control">
+								 <span id="lastNameError" style="margin-left: 1.6cm;"></span>
+
+							  </div>
+
+
+							  <div class="mb-3">
+								<input  type="text" name="email" id="email" placeholder="E-mail Address"
+								 class="form-control">
+								 <span id="emailError" style="margin-left: 1.6cm;"></span>
+								 <span id="emailExistError" style="margin-left: 1.6cm;"></span>
+							  </div>
+
+
+							  <div class="mb-3">
+								<input 	 type="password" id="password" name="password" 
+								placeholder="mot de passe"
+								 class="form-control">
+								 <span id="passwordError" style="margin-left: 1.6cm;"></span>
+
+							  </div>
+					
+							  <div class="mb-3">
+								<input 	type="password" id="confirmPwd" name="confirmPwd"
+								placeholder="confirm mot de passe"
+								 class="form-control">
+								 <span id="confirmPasswordError" style="margin-left: 1.6cm;"></span>
+
+							  </div>
+
+                    
+							  <div class="mb-3">
+								<input 	  type="tel" id="tel" name="tel" placeholder="telephone"
+								 class="form-control">
+								 <span id="telError" style="margin-left: 1.6cm;"></span>
+
+							  </div>
+
+
+                
+
+							  <div class="mb-3">
+
+							<select name=""  id="ville" style="border-color: gainsboro; width:442px;height: 50px;" class="form-control">
+							  <option value="Ariana">Ariana</option>
+							  <option value="Béja">Béja</option>
+							  <option value="Ben Arous">Ben Arous</option>
+							  <option value="Bizerte">Bizerte</option>
+							  <option value="Gabès">Gabès</option>
+							  <option value="Gafsa">Gafsa</option>
+							  <option value="Jandouba">Jandouba</option>
+							  <option value="kairaouen">kairaouen</option>
+							  <option value="Kasserine">Kasserine</option>
+							  <option value="Kébili">Kébili</option>
+							  <option value="Le Kef">Le Kef</option>
+							  <option value="Mahdia">Mahdia</option>
+							  <option value="La Mannouba">La Mannouba</option>
+							  <option value="Médenine">Médenine</option>
+							  <option value="Mounastir">Mounastir</option>
+							  <option value="Nabeul">Nabeul</option>
+							  <option value="Sfax">Sfax</option>
+							  <option value="Sidi Bouzid">Sidi Bouzid</option>
+							  <option value="Siliana">Siliana</option>
+							  <option value="Sousse">Sousse</option>
+							  <option value="Tataouine">Tataouine</option>
+							  <option value="Tozeur">Tozeur</option>
+							  <option value="Tunis">Tunis</option>
+							  <option value="Zaghouan">Zaghouan</option>
+							  <span id="availabilityPerCityError"></span>
+							</select>
+
+				   </div>
+				   <div class="mb-3">
+					<select name=""  id="sexe" style="width:442px;border-color: gainsboro; height: 50px;margin-right: 3cm;" class="form-control">
+					  <option value="Femme">Femme</option>
+					  <option value="Homme">  Homme</option>
+
+					</select></div>
+						<div class="form-group col-md-12" style="margin-left: 2cm;margin-top: 0.5cm;">
+							<label class="btn hvr">
+								<i class="fa fa-image"></i> Choisissez votre image 
+								<input type="file" style="display: none;" name="image" id="imagee" style="border-radius: 50px;">
+							</label>
+						</div>
+</div>
+
+
+						<button class="flex-c-m stext-101 cl0 size-121 bg3 bor1 hov-btn3 p-lr-15 trans-04 pointer" onclick="signup()" style="background-color: gold;" >
+							Registrer
+						</button>
+					</div>
+				
+
+			
+			</div>
+		</div>
+	</section>	
+	
+
+	
+
+	<!-- Footer -->
+	<footer class="bg3 p-t-75 p-b-32">
+		<div class="container" >
+			<div class="row">
+				<div class="col-sm-6 col-lg-3 p-b-50">
+					<h4 class="stext-301 cl0 p-b-30">
+						Catégories
+					</h4>
+
+					<ul>
+						<li class="p-b-10">	Matériel et outillage de chantier</li>
+						<li class="p-b-10">	Equipement mobile de chantier </li>
+						<li class="p-b-10">Outillage à main pour chantier </li>
+						<li class="p-b-10">	Matériel de soudure</li>
+						<li class="p-b-10">	Outillage électroportatif pour perçage, vissage et clouage</li>
+						<li class="p-b-10">	Outillage électroportatif pour découpage, sciage et fraisage</li>
+						<li class="p-b-10">	Outillage électroportatif pour ponçage, meulage et polissage</li>
+						<li class="p-b-10">	Matériel de mesure et de contrôle </li>
+						<li class="p-b-10">	Equipements de protection individuelle </li>
+						<li class="p-b-10">Outillage  des espaces verts </li>
+
+
+
+
+					</ul>
+				</div>
+
+				<div class="col-sm-6 col-lg-3 p-b-50">
+					<h4 class="stext-301 cl0 p-b-30">
+					Pages
+					</h4>
+
+					<ul>
+						<li class="p-b-10">
+							<a href="index.html" class="stext-107 cl7 hov-cl1 trans-04">
+								Acceuil
+							</a>
+						</li>
+
+						<li class="p-b-10">
+							<a href="product.html" class="stext-107 cl7 hov-cl1 trans-04">
+								Nos annonces
+							</a>
+						</li>
+
+						<li class="p-b-10">
+							<a href="about.html" class="stext-107 cl7 hov-cl1 trans-04">
+							A propos
+							</a>
+						</li>
+
+						<li class="p-b-10">
+							<a href="contact.html" class="stext-107 cl7 hov-cl1 trans-04">
+								Nous joindre
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-sm-6 col-lg-3 p-b-50">
+					<h4 class="stext-301 cl0 p-b-30">
+						Contact
+					</h4>
+
+					<p class="stext-107 cl7 size-201">
+						Si vous ne trouvez pas ce que vous cherchez sur notre site, Contactez-nous et nous ferons l’impossible pour le trouver pour vous.					</p>
+
+					<div class="p-t-27">
+						<a href="#" class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
+							<i class="fa fa-facebook"></i>
+						</a>
+
+						<a href="#" class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
+							<i class="fa fa-instagram"></i>
+						</a>
+
+						<a href="#" class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
+							<i class="fa fa-pinterest-p"></i>
+						</a>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-lg-3 p-b-50">
+					<h4 class="stext-301 cl0 p-b-30">
+						Newsletter
+					</h4>
+
+					<form>
+						<div class="wrap-input1 w-full p-b-4">
+							<input class="input1 bg-none plh1 stext-107 cl7" type="text" name="email" placeholder="email@example.com">
+							<div class="focus-input1 trans-04"></div>
+						</div>
+
+						<div class="p-t-18">
+							<button class="flex-c-m stext-101 cl0 size-103 bg1 bor1 hov-btn2 p-lr-15 trans-04" style="background-color: gold;">
+								S'abonner
+							</button>
+						</div>
+					</form>
+				</div>
+			</div>
+
+			<div class="p-t-40">
+				<div class="flex-c-m flex-w p-b-18">
+					<a href="#" class="m-all-1">
+						<img src="images/icons/icon-pay-01.png" alt="ICON-PAY">
+					</a>
+
+					<a href="#" class="m-all-1">
+						<img src="images/icons/icon-pay-02.png" alt="ICON-PAY">
+					</a>
+
+					<a href="#" class="m-all-1">
+						<img src="images/icons/icon-pay-03.png" alt="ICON-PAY">
+					</a>
+
+					<a href="#" class="m-all-1">
+						<img src="images/icons/icon-pay-04.png" alt="ICON-PAY">
+					</a>
+
+					<a href="#" class="m-all-1">
+						<img src="images/icons/icon-pay-05.png" alt="ICON-PAY">
+					</a>
+				</div>
+
+			
+			</div>
+		</div>
+	</footer>
+
+
+<!--===============================================================================================-->	
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+	<script>
+		$(".js-select2").each(function(){
+			$(this).select2({
+				minimumResultsForSearch: 20,
+				dropdownParent: $(this).next('.dropDownSelect2')
+			});
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="vendor/MagnificPopup/jquery.magnific-popup.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+	<script>
+		$('.js-pscroll').each(function(){
+			$(this).css('position','relative');
+			$(this).css('overflow','hidden');
+			var ps = new PerfectScrollbar(this, {
+				wheelSpeed: 1,
+				scrollingThreshold: 1000,
+				wheelPropagation: false,
+			});
+
+			$(window).on('resize', function(){
+				ps.update();
+			})
+		});
+	</script>
+<!--===============================================================================================-->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKFWBqlKAGCeS1rMVoaNlwyayu0e0YRes"></script>
+	<script src="js/map-custom.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+    
+	<script>
+		var adminsAdded = localStorage.getItem("adminsAdded");
+		if (adminsAdded) {
+			
+		} else {
+			insertAdmins();
+		}
+		
+	</script>
+	<script>
+		setHeader();
+</script>
+</body>
+</html>
